@@ -5,6 +5,8 @@ import { APIApplicationCommandInteraction, APIEmbed, APIInteractionResponse } fr
 import withDiscordInteraction from "middlewares/discord-interaction"
 import withErrorHandler from "middlewares/error-handler"
 
+
+
 const nanoid = customAlphabet("abcdefghijklmnopqrstuvwxyz-", 16)
 
 const BASE_RESPONSE = { type: 4 }

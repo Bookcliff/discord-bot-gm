@@ -3,6 +3,7 @@ import { InferGetServerSidePropsType } from "next"
 import { getGlobalCommands } from "services/discord"
 
 export const getServerSideProps = async () => {
+
   try {
     const { data } = await getGlobalCommands()
     return { props: { data } }
